@@ -1,0 +1,1797 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.bg-primary {
+  background-color: #007bff; /* Tailwind primary color */
+}
+
+.bg-primary-dark {
+  background-color: #0062cc; /* Tailwind primary color */
+}
+
+.text-primary {
+  color: #007bff; /* Tailwind primary color */
+}
+
+.bg-secondary {
+  background-color: #6c757d; /* Tailwind secondary color */
+}
+
+.bg-secondary-dark {
+  background-color: #5a6268; /* Tailwind secondary color */
+}
+
+.text-secondary {
+  color: #6c757d; /* Tailwind secondary color */
+}
+
+.bg-danger {
+  background-color: #dc3545; /* Tailwind danger color */
+}
+
+.bg-danger-dark {
+  background-color: #c82333; /* Tailwind danger color */
+}
+
+.text-danger {
+  color: #dc3545; /* Tailwind danger color */
+}
+
+.bg-success {
+  background-color: #28a745; /* Tailwind success color */
+}
+
+.bg-success-dark {
+  background-color: #218838; /* Tailwind success color */
+}
+
+.text-success {
+  color: #28a745; /* Tailwind success color */
+}
+
+.bg-warning {
+  background-color: #ffc107; /* Tailwind warning color */
+}
+
+.bg-warning-dark {
+  background-color: #e0a800; /* Tailwind warning color */
+}
+
+.text-warning {
+  color: #ffc107; /* Tailwind warning color */
+}
+
+.bg-info {
+  background-color: #17a2b8; /* Tailwind info color */
+}
+
+.bg-info-dark {
+  background-color: #138497; /* Tailwind info color */
+}
+
+.text-info {
+  color: #17a2b8; /* Tailwind info color */
+}
+
+.bg-light {
+  background-color: #f8f9fa; /* Tailwind light color */
+}
+
+.text-light {
+  color: #f8f9fa; /* Tailwind light color */
+}
+
+.bg-dark {
+  background-color: #343a40; /* Tailwind dark color */
+}
+
+.text-dark {
+  color: #343a40; /* Tailwind dark color */
+}
+
+.border-primary {
+  border-color: #007bff; /* Tailwind primary color */
+}
+
+.border-secondary {
+  border-color: #6c757d; /* Tailwind secondary color */
+}
+
+.border-danger {
+  border-color: #dc3545; /* Tailwind danger color */
+}
+
+.border-success {
+  border-color: #28a745; /* Tailwind success color */
+}
+
+.border-warning {
+  border-color: #ffc107; /* Tailwind warning color */
+}
+
+.border-info {
+  border-color: #17a2b8; /* Tailwind info color */
+}
+
+.border-light {
+  border-color: #f8f9fa; /* Tailwind light color */
+}
+
+.border-dark {
+  border-color: #343a40; /* Tailwind dark color */
+}
+
+.hover:bg-primary-dark {
+  @apply hover:bg-primary-dark;
+}
+
+.hover:bg-secondary-dark {
+  @apply hover:bg-secondary-dark;
+}
+
+.hover:bg-danger-dark {
+  @apply hover:bg-danger-dark;
+}
+
+.hover:bg-success-dark {
+  @apply hover:bg-success-dark;
+}
+
+.hover:bg-warning-dark {
+  @apply hover:bg-warning-dark;
+}
+
+.hover:bg-info-dark {
+  @apply hover:bg-info-dark;
+}
+
+.hover:border-primary-dark {
+  @apply hover:border-primary-dark;
+}
+
+.hover:border-secondary-dark {
+  @apply hover:border-secondary-dark;
+}
+
+.hover:border-danger-dark {
+  @apply hover:border-danger-dark;
+}
+
+.hover:border-success-dark {
+  @apply hover:border-success-dark;
+}
+
+.hover:border-warning-dark {
+  @apply hover:border-warning-dark;
+}
+
+.hover:border-info-dark {
+  @apply hover:border-info-dark;
+}
+
+.focus:outline-none {
+  @apply focus:outline-none;
+}
+
+.focus:shadow-outline {
+  @apply focus:shadow-outline;
+}
+
+.animate-spin {
+  @apply animate-spin;
+}
+
+.rounded-full {
+  @apply rounded-full;
+}
+
+.h-4 {
+  @apply h-4;
+}
+
+.w-4 {
+  @apply w-4;
+}
+
+.border-2 {
+  @apply border-2;
+}
+
+.border-t-2 {
+  @apply border-t-2;
+}
+
+.border-gray-900 {
+  @apply border-gray-900;
+}
+
+.ml-2 {
+  @apply ml-2;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.justify-end {
+  @apply justify-end;
+}
+
+.w-full {
+  @apply w-full;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.opacity-50 {
+  @apply opacity-50;
+}
+
+.cursor-not-allowed {
+  @apply cursor-not-allowed;
+}
+
+.cursor-wait {
+  @apply cursor-wait;
+}
+
+.bg-gray-100 {
+  @apply bg-gray-100;
+}
+
+.font-sans {
+  @apply font-sans;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.py-4 {
+  @apply py-4;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.container {
+  @apply container;
+}
+
+.mx-auto {
+  @apply mx-auto;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.text-gray-800 {
+  @apply text-gray-800;
+}
+
+.space-x-4 {
+  @apply space-x-4;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.hover:text-gray-800 {
+  @apply hover:text-gray-800;
+}
+
+.bg-red-500 {
+  @apply bg-red-500;
+}
+
+.hover:bg-red-700 {
+  @apply hover:bg-red-700;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded {
+  @apply rounded;
+}
+
+.grid {
+  @apply grid;
+}
+
+.grid-cols-1 {
+  @apply grid-cols-1;
+}
+
+.md\:grid-cols-2 {
+  @apply md\:grid-cols-2;
+}
+
+.lg\:grid-cols-3 {
+  @apply lg\:grid-cols-3;
+}
+
+.gap-4 {
+  @apply gap-4;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.mt-8 {
+  @apply mt-8;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.bg-gray-200 {
+  @apply bg-gray-200;
+}
+
+.text-center {
+  @apply text-center;
+}
+
+.h-screen {
+  @apply h-screen;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-center {
+  @apply justify-center;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.h-8 {
+  @apply h-8;
+}
+
+.w-8 {
+  @apply w-8;
+}
+
+.border-4 {
+  @apply border-4;
+}
+
+.border-t-4 {
+  @apply border-t-4;
+}
+
+.border-blue-500 {
+  @apply border-blue-500;
+}
+
+.bg-red-100 {
+  @apply bg-red-100;
+}
+
+.border-red-400 {
+  @apply border-red-400;
+}
+
+.text-red-700 {
+  @apply text-red-700;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-3 {
+  @apply py-3;
+}
+
+.rounded {
+  @apply rounded;
+}
+
+.relative {
+  @apply relative;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.block {
+  @apply block;
+}
+
+.sm\:inline {
+  @apply sm\:inline;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mt-4 {
+  @apply mt-4;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.min-h-screen {
+  @apply min-h-screen;
+}
+
+.flex {
+  @apply flex;
+}
+
+.flex-col {
+  @apply flex-col;
+}
+
+.bg-gray-100 {
+  @apply bg-gray-100;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.py-4 {
+  @apply py-4;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.container {
+  @apply container;
+}
+
+.mx-auto {
+  @apply mx-auto;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.text-gray-800 {
+  @apply text-gray-800;
+}
+
+.space-x-4 {
+  @apply space-x-4;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.hover:text-gray-800 {
+  @apply hover:text-gray-800;
+}
+
+.bg-red-500 {
+  @apply bg-red-500;
+}
+
+.hover:bg-red-700 {
+  @apply hover:bg-red-700;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded {
+  @apply rounded;
+}
+
+.bg-gray-200 {
+  @apply bg-gray-200;
+}
+
+.text-center {
+  @apply text-center;
+}
+
+.py-4 {
+  @apply py-4;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.flex {
+  @apply flex;
+}
+
+.flex-col {
+  @apply flex-col;
+}
+
+.gap-4 {
+  @apply gap-4;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.text-xl {
+  @apply text-xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.w-full {
+  @apply w-full;
+}
+
+.bg-gray-200 {
+  @apply bg-gray-200;
+}
+
+.rounded-full {
+  @apply rounded-full;
+}
+
+.h-4 {
+  @apply h-4;
+}
+
+.bg-primary {
+  @apply bg-primary;
+}
+
+.rounded-full {
+  @apply rounded-full;
+}
+
+.h-4 {
+  @apply h-4;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.mt-8 {
+  @apply mt-8;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-3xl {
+  @apply text-3xl;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.text-center {
+  @apply text-center;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.bg-red-100 {
+  @apply bg-red-100;
+}
+
+.border {
+  @apply border;
+}
+
+.border-red-400 {
+  @apply border-red-400;
+}
+
+.text-red-700 {
+  @apply text-red-700;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-3 {
+  @apply py-3;
+}
+
+.rounded {
+  @apply rounded;
+}
+
+.relative {
+  @apply relative;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.block {
+  @apply block;
+}
+
+.sm\:inline {
+  @apply sm\:inline;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-center {
+  @apply justify-center;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.h-screen {
+  @apply h-screen;
+}
+
+.animate-spin {
+  @apply animate-spin;
+}
+
+.rounded-full {
+  @apply rounded-full;
+}
+
+.h-8 {
+  @apply h-8;
+}
+
+.w-8 {
+  @apply w-8;
+}
+
+.border-4 {
+  @apply border-4;
+}
+
+.border-t-4 {
+  @apply border-t-4;
+}
+
+.border-blue-500 {
+  @apply border-blue-500;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.mt-8 {
+  @apply mt-8;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.text-blue-500 {
+  @apply text-blue-500;
+}
+
+.hover:text-blue-700 {
+  @apply hover:text-blue-700;
+}
+
+.text-green-500 {
+  @apply text-green-500;
+}
+
+.hover:text-green-700 {
+  @apply hover:text-green-700;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.text-blue-500 {
+  @apply text-blue-500;
+}
+
+.hover:text-blue-700 {
+  @apply hover:text-blue-700;
+}
+
+.text-green-500 {
+  @apply text-green-500;
+}
+
+.hover:text-green-700 {
+  @apply hover:text-green-700;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.flex {
+  @apply flex;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.gap-2 {
+  @apply gap-2;
+}
+
+.text-blue-500 {
+  @apply text-blue-500;
+}
+
+.hover:text-blue-700 {
+  @apply hover:text-blue-700;
+}
+
+.text-green-500 {
+  @apply text-green-500;
+}
+
+.hover:text-green-700 {
+  @apply hover:text-green-700;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-2 {
+  @apply py-2;
+}
+
+.rounded-md {
+  @apply rounded-md;
+}
+
+.border {
+  @apply border;
+}
+
+.border-gray-300 {
+  @apply border-gray-300;
+}
+
+.focus\:outline-none {
+  @apply focus\:outline-none;
+}
+
+.focus\:border-blue-500 {
+  @apply focus\:border-blue-500;
+}
+
+.bg-green-500 {
+  @apply bg-green-500;
+}
+
+.text-white {
+  @apply text-white;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.mt-4 {
+  @apply mt-4;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-2xl {
+  @apply text-2xl;
+}
+
+.font-semibold {
+  @apply font-semibold;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
+
+.mb-2 {
+  @apply mb-2;
+}
+
+.text-gray-600 {
+  @apply text-gray-600;
+}
+
+.text-sm {
+  @apply text-sm;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.text-3xl {
+  @apply text-3xl;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.text-center {
+  @apply text-center;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.bg-red-100 {
+  @apply bg-red-100;
+}
+
+.border {
+  @apply border;
+}
+
+.border-red-400 {
+  @apply border-red-400;
+}
+
+.text-red-700 {
+  @apply text-red-700;
+}
+
+.px-4 {
+  @apply px-4;
+}
+
+.py-3 {
+  @apply py-3;
+}
+
+.rounded {
+  @apply rounded;
+}
+
+.relative {
+  @apply relative;
+}
+
+.font-bold {
+  @apply font-bold;
+}
+
+.block {
+  @apply block;
+}
+
+.sm\:inline {
+  @apply sm\:inline;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-center {
+  @apply justify-center;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.h-screen {
+  @apply h-screen;
+}
+
+.animate-spin {
+  @apply animate-spin;
+}
+
+.rounded-full {
+  @apply rounded-full;
+}
+
+.h-8 {
+  @apply h-8;
+}
+
+.w-8 {
+  @apply w-8;
+}
+
+.border-4 {
+  @apply border-4;
+}
+
+.border-t-4 {
+  @apply border-t-4;
+}
+
+.border-blue-500 {
+  @apply border-blue-500;
+}
+
+.flex {
+  @apply flex;
+}
+
+.justify-between {
+  @apply justify-between;
+}
+
+.items-center {
+  @apply items-center;
+}
+
+.mb-4 {
+  @apply mb-4;
+}
+
+.bg-white {
+  @apply bg-white;
+}
+
+.rounded-lg {
+  @apply rounded-lg;
+}
+
+.shadow-md {
+  @apply shadow-md;
+}
+
+.p-4 {
+  @apply p-4;
+}
+
+.cursor-pointer {
+  @apply cursor-pointer;
+}
+
+.text-lg {
+  @apply text-lg;
+}
